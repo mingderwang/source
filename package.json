@@ -1,10 +1,10 @@
 {
-  "name": "@xdid2/source",
+  "name": "@muzamint/source",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": { "@nxtensions/astro": "19.0.1" },
   "devDependencies": {
     "@nx/js": "19.4.2",
     "@nx/workspace": "19.4.2",

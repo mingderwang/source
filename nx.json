@@ -1,9 +1,17 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
-    "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "production": ["default"],
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "production": [
+      "default"
+    ],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "YzQ2MDY2MGMtODllYi00Njc5LTgxOTAtZGMzOTM2MTQ0NzJmfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "YzQ2MDY2MGMtODllYi00Njc5LTgxOTAtZGMzOTM2MTQ0NzJmfHJlYWQtd3JpdGU=",
+  "plugins": [
+    "@nxtensions/astro"
+  ]
 }
